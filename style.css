@@ -652,7 +652,7 @@ body.loading {
         display: flex;
         flex-direction: column;
     }
-    nav-links img{
+    .nav-links img{
         display: block;
     }
     .nav-links a {
