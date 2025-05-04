@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animar.js"> <!-- Error: Debe ser script -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPISHOES | Zapatos Deportivos Premium Online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">EMPISHOES</a>
+            <div class="nav-links">
+                <img src="img/logo2.PNG"  alt="">
+                <a href="#about">Nosotros</a>
+                <a href="#products">Productos</a>
+                <a href="#testimonios">testimonios</a>
+                <a href="#contact">Contacto</a>
+            </div>
+        </nav>
+        <!-- Agrega esto en el header -->
+        <button class="menu-toggle" aria-label="Abrir menú">
+            <span class="hamburger"></span>
+        </button>
+    </header>
+
+    <div class="preloader">
+        <img src="img/logoCorrecto.png" alt="EMPISHOES Logo" class="preloader-logo">
+    </div>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Zapatos Deportivos Premium<br>para tu Estilo Único</h1>
+            <p>Calidad en precio y producto</p>
+            <a href="https://drive.google.com/drive/folders/1gpLf9Mjy3mPeH2k1F-7JvtDMiJg0znaA" class="cta-btn">Explora la Colección</a>
+        </div>
+        
+        <div class="hero-slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/recorte1.jpg" alt="Modelo 1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/recorte.jpg" alt="Modelo 2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/recorte3.jpg" alt="Modelo 2">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+    <div class="section-container">
+        <div class="about-grid">
+            <div class="about-content">
+                <h2>Nuestra Historia</h2>
+                <p class="highlight-text">Más de 3 años calzando tus pasos</p>
+                <p>En EMPISHOES, somos tu destino online para encontrar el calzado deportivo perfecto. No fabricamos ni somos proveedores tradicionales; nuestra pasión radica en explorar el mercado para seleccionar cuidadosamente solo los productos de 'top quality' que combinan diseño atractivo y confort excepcional. Cada par que encuentras en EMPISHOES ha sido elegido meticulosamente para asegurar que cumpla con tus expectativas de rendimiento y estilo.</p>
+                
+                <div class="values-grid">
+                    <div class="value-card">
+                        <i class="fas fa-hand-holding-heart"></i>
+                        <h4>Calidad Garantizada</h4>
+                        <p>Materiales premium y controles de calidad exhaustivos</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-shipping-fast"></i>
+                        <h4>Envío Express</h4>
+                        <p>Recibe tu pedido en 24-48 horas en toda Maracaibo</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-lock"></i>
+                        <h4>Compra Segura</h4>
+                        <p>Transacciones via zalle, pago moivil, transferencia... cualquier dudad ¡Contactanos!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-image">
+                <img src="img/4952000089044397573.jpg" alt="Nuestros productos" loading="lazy">
+                <div class="experience-badge">
+                    <span>3+ Años</span>
+                    <small>En el mercado</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="products" class="products">
+    <h2>Nuestra Colección</h2>
+    <div class="products-grid">
+        <div class="product-card">
+            <img src="img/4952000089044397564.jpg" alt="Zapato Runner Pro" loading="lazy">
+            <div class="product-content">
+                <h3>Adidas Campus</h3>
+                <p>Ícono urbano de los 80, versátil para vestir casual y skate, con diseño atemporal y cómodo.
+                    <br>.
+                </p>
+                <button class="product-btn">Contactanos</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="img/4952000089044397565.jpg" alt="Urban Street" loading="lazy">
+            <div class="product-content">
+                <h3>Alexander McQueen</h3>
+                <p>Destacan por su diseño vanguardista y materiales de lujo, a menudo con su distintiva suela oversized, fusionando alta costura y estilo urbano.</p>
+                <button class="product-btn">Contactanos</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="img/4952000089044397566.jpg" alt="Trail Master" loading="lazy">
+            <div class="product-content">
+                <h3>Puma suede</h3>
+                <p>Clásico de gamuza desde 1968, ícono del deporte y la cultura urbana, famoso por su comodidad y estilo atemporal.</p>
+                <button class="product-btn">Contactanos</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="img/4952000089044397567.jpg" alt="Sport Light" loading="lazy">
+            <div class="product-content">
+                <h3>Air Jordan 1</h3>
+                <p>El legendario primer calzado de Michael Jordan, revolucionó la cultura sneaker con su diseño icónico y legado en el baloncesto y la moda.</p>
+                <button class="product-btn">Contactanos</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="img/4952000089044397568.jpg" alt="Basket Pro" loading="lazy">
+            <div class="product-content">
+                <h3>La Jordan 3 colaboró con J Balvin</h3>
+                <p>ediciones: "Medellín Sunset", con colores vibrantes inspirados en los atardeceres colombianos</p>
+                <button class="product-btn">Contactanos</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="img/4952000089044397569.jpg" alt="Casual Flex" loading="lazy">
+            <div class="product-content">
+                <h3>Travis</h3>
+                <p>colaboraciones entre Travis Scott y Nike/Jordan, conocidas por su diseño único, detalles distintivos como el Swoosh invertido,</p>
+                <button class="product-btn">Contactanos</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="testimonials" id="testimonios">
+    <h2>Testimonios</h2>
+    <div class="swiper testimonials-swiper">
+        
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide">
+                <div class="testimonial-card">
+                    <img src="img/yo.jpg" alt="Cliente Satisfecho" class="testimonial-img">
+                    <h4>Carlos Martínez</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Los mejores zapatos que he tenido. Los uso para correr diariamente y mantienen su comodidad incluso después de 6 meses de uso intensivo."</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="testimonial-card">
+                    <img src="img/yo.jpg" alt="Cliente Satisfecho" class="testimonial-img">
+                    <h4>Ana Rodríguez</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Excelente calidad y atención al cliente. El envío llegó antes de lo esperado y los zapatos son exactamente como se muestran en las fotos."</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="testimonial-card">
+                    <img src="img/yo.jpg" alt="Cliente Satisfecho" class="testimonial-img">
+                    <h4>David Gómez</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Increíble relación calidad-precio. Compré los Urban Street y son perfectos para el uso diario en la ciudad. ¡Totalmente recomendados!"</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<section class="stats-section">
+    <div class="stats-container">
+        <h2>Nuestros Logros</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" data-count="1500">0</div>
+                <div class="stat-label">Clientes Satisfechos</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-count="500">0</div>
+                <div class="stat-label">Pares Vendidos</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-count="98">0</div>
+                <div class="stat-label">% Satisfacción</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="contact">
+        <form id="contactForm">
+            <h1>Contactanos a travez de los siguientes canales</h1>
+            <ul>
+                
+                <li><a href="https://wa.me/+584126505112"><img src="img/social.png" alt="wasap"></a></li>
+                <li><a href="https://t.me/empishoes"><img src="img/telegrama.png" alt="telegram"></a></li>
+                <li><a href="https://www.instagram.com/empishoes.ve?igsh=cjZmejBwaXFtbnp5"><img src="img/instagram.png" alt="instagram"></a></li>
+            </ul>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Sección Redes Sociales -->
+            <div class="footer-section">
+                <h3 class="footer-title">EMPISHOES</h3>
+                <p class="footer-subtitle">Síguenos en redes sociales:</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/empishoes.ve" target="_blank" class="social-item">
+                        <img src="img/instagram.png" alt="Instagram">
+                        <span>@empishoes.ve</span>
+                    </a>
+                    <a href="https://t.me/empishoes" target="_blank" class="social-item">
+                        <img src="img/telegrama.png" alt="Telegram">
+                        <span>eMPishoes</span>
+                    </a>
+                    <a href="https://www.facebook.com/empishoes" target="_blank" class="social-item">
+                        <img src="img/facebook.png" alt="Facebook">
+                        <span>empishoes</span>
+                    </a>
+                    <a href="https://www.tiktok.com/@empishoes_" target="_blank" class="social-item">
+                        <img src="img/tik-tok.png" alt="TikTok">
+                        <span>@empishoes_</span>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Sección Creador -->
+            <div class="creador">
+                <div class="developer-info">
+                    <img src="img/miLogo.jpg" alt="Logo desarrollador" class="developer-logo">
+                    <div class="developer-details">
+                        <h4 class="developer-title">Desarrollador:</h4>
+                        <p class="developer-name">Ing. Angel Sulbaran</p>
+                        <a href="https://wa.me/584246018457" target="_blank" class="whatsapp-contact">
+                            <img src="img/social.png" alt="Contactar por WhatsApp" class="whatsapp-icon">
+                            <span>Contactar por WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" class="top"></script>
+    <script>
+
+        // Contadores animados
+        function animateValue(obj, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                obj.textContent = Math.floor(progress * (end - start) + start);
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+    // Observer para los contadores
+    const counterObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const counters = document.querySelectorAll('.stat-number');
+                counters.forEach(counter => {
+                    const target = parseInt(counter.dataset.count);
+                    animateValue(counter, 0, target, 2000);
+                });
+                counterObserver.disconnect();
+            }
+        });
+    }, { threshold: 0.5 });
+
+    counterObserver.observe(document.querySelector('.stats-section'));
+
+
+        const testimonialSwiper = new Swiper('.testimonials-swiper', {
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 2,
+                    spaceBetween: 30,
+                }
+            }
+        });
+        
+        
+        // Swiper Initialization
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form Handling
+        document.getElementById('contactForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Aquí iría la lógica de envío
+            alert('Gracias por tu mensaje!');
+        });
+
+        // Scroll Animation
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.product-card').forEach(card => {
+            observer.observe(card);
+        });
+
+        // Back to Top Button
+const backToTop = document.createElement('button');
+backToTop.innerHTML = '↑';
+backToTop.classList.add('back-to-top');
+document.body.appendChild(backToTop);
+
+// Estilos CSS para el botón
+const style = document.createElement('style');
+style.textContent = `
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100px);
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.back-to-top:hover {
+    transform: translateY(-3px);
+    background-color: var(--accent);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.back-to-top.pulse {
+    animation: pulse 1.5s infinite;
+}
+`;
+document.head.appendChild(style);
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 500) {
+        backToTop.classList.add('show', 'pulse');
+    } else {
+        backToTop.classList.remove('show', 'pulse');
+    }
+});
+
+backToTop.addEventListener('click', () => {
+    backToTop.classList.add('click-animation');
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+    setTimeout(() => {
+        backToTop.classList.remove('click-animation');
+    }, 300);
+});
+
+// Añadir animación al hacer clic
+const clickStyle = document.createElement('style');
+clickStyle.textContent = `
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.click-animation {
+    animation: bounce 0.3s ease;
+}
+`;
+document.head.appendChild(clickStyle);
+
+
+// Agrega esta parte al final del script
+document.addEventListener('DOMContentLoaded', function() {
+    // Agrega clase de loading al body
+    document.body.classList.add('loading');
+    
+    // Oculta el preloader después de 2.5s
+    setTimeout(() => {
+      document.querySelector('.preloader').style.display = 'none';
+      document.body.classList.remove('loading');
+    }, 2500);
+  });
+
+
+  // Agrega este script
+const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+// Toggle del menú
+menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    menuToggle.classList.toggle('active');
+    
+    // Actualizar accesibilidad
+    const isExpanded = navLinks.classList.contains('active');
+    menuToggle.setAttribute('aria-expanded', isExpanded);
+});
+
+// Cerrar menú al hacer click en un enlace
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        menuToggle.classList.remove('active');
+        menuToggle.setAttribute('aria-expanded', 'false');
+    });
+});
+
+// Cerrar menú al hacer click fuera
+document.addEventListener('click', (e) => {
+    if (!navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
+        navLinks.classList.remove('active');
+        menuToggle.classList.remove('active');
+        menuToggle.setAttribute('aria-expanded', 'false');
+    }
+});
+    </script>
+</body>
+</html>
