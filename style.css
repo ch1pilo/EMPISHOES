@@ -441,12 +441,11 @@ a{
     flex: 1;
     min-width: 250px;
     border-left: 2px solid #34495e;
-    padding-left: 2rem;
-}
-.creador{
     background-color: #2C3E50;
-
+    padding-left: 2rem;
+    padding: 15px;
 }
+
 
 .developer-info {
     display: flex;
@@ -681,6 +680,10 @@ body.loading {
         padding-left: 0;
         border-top: 2px solid #34495e;
         padding-top: 2rem;
+    }
+    .testimonial-card img{
+        height: 100px;
+        width: 100px;
     }
     
     .social-item {
